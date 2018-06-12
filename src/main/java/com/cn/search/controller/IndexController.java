@@ -12,8 +12,8 @@ public class IndexController {
 	
 	@RequestMapping("index")
     public String index(HttpServletRequest request,HttpServletResponse response,Model model) {
-    	
-      model.addAttribute("welcome", "欢迎来到网络爬虫");
+     
+	 model.addAttribute("welcome", "欢迎来到网络爬虫");
       return "/index";
       
     }

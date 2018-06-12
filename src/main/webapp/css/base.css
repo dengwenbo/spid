@@ -1,0 +1,10 @@
+body{
+	background: url(../images/b1.jpg) no-repeat fixed top;
+	backgrounf-size:1970px 966px;
+}
+
+.form-item{
+	font-size:14px;
+	margin-top:10px;
+	margin-bomtom:5px;
+}

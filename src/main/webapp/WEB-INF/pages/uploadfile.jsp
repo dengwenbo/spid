@@ -4,27 +4,20 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<title>网络爬虫</title>
+<title>上传文件测试</title>
 <script src='./js/plugins/jquery-3.3.1.min.js'></script>
 <link rel="stylesheet" href="./css/base.css">
 </head>
 <body>
-   <div>
-      <form action="">
-             <div>
-             <span>用户名</span>
-              <input type="text" name="username"  placeholder ="请填写您的用户名">
-             
-             </div>
-         
-      
-      
-      
-      
-      </form>
-   
-   
-   
-   </div>
+ <form action="./uploadtext.do" enctype="multipart/form-data" method="post">
+ 	 <div class="form-item">
+ 	  <span>文件描述：</span>
+	 <input id="description" name="description"></input>
+	 </div>
+ 	<div class="form-item">
+ 	<input id="file" name="file" type="file"/>   
+ 	</div>
+ 	
+ </form>
 </body>
 </html>
