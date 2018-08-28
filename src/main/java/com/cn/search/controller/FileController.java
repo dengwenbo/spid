@@ -11,21 +11,6 @@ public class FileController {
 	public String upLoadFile(){
 		return "/uploadfile";
    }
-	
-	
-	
-
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
    @RequestMapping("downlaodfile")
    public String downloadfile() {
 	   return "/downLoad";
